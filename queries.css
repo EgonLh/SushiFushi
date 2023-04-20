@@ -1,0 +1,440 @@
+@media only screen and (max-width: 1350px) {
+  .font-lg {
+    font-size: 15px;
+  }
+
+  .font-xl {
+    font-size: 20px;
+  }
+
+  .font-sm {
+    font-size: 10px;
+  }
+  /* For Navigation */
+  .navbar-items ul li {
+    margin: 0px 20px;
+  }
+
+  /* For Home */
+  .home-menu {
+
+    max-width            : 1100px;
+    grid-template-columns: 400px auto;
+    grid-gap             : 30px;
+    padding              : 30px 30px;
+  }
+
+  .home-img .contact {
+    height: 40%;
+  }
+
+  .home-content .btn-gp .home-btn {
+    font-size    : 10px;
+    padding      : 10px;
+    border-radius: 10px;
+  }
+
+  /* To Top */
+  .to-top-btn .to-top {
+    right: 50px;
+  }
+
+  /* For News */
+  .news {
+    margin-top: 50px;
+    font-size : 10px;
+  }
+
+  .news-menu {
+    max-width            : 1100px;
+    grid-template-columns: auto 400px;
+    grid-gap             : 60px;
+  }
+
+  .news-menu-services {
+    max-width            : 1100px;
+    grid-template-columns: auto 350px 20px;
+    grid-gap             : 25px;
+    margin-bottom        : 50px;
+
+  }
+
+  .service-items p {
+    font-size: 10px;
+  }
+
+  .service-items {
+    padding: 10px;
+    margin : 20px 10px;
+
+  }
+
+  /* For Menu */
+  .menu {
+    margin-top: 20px;
+  }
+
+  .menu-content {
+    grid-template-columns: 100px auto;
+    grid-gap             : 50px;
+  }
+
+  .options {
+    font-size: 10px;
+  }
+
+  .food-menu {
+    grid-template-columns: 150px 150px 150px;
+    grid-gap             : 80px;
+
+  }
+
+  .food-items {
+    height  : 290px;
+    overflow: hidden;
+  }
+
+  /* For Order */
+  .order .order-container {
+    max-width: 1100px;
+
+  }
+
+  .order .order-container .order-menu {
+
+    grid-template-columns: auto auto 300px;
+    margin               : 10px 0px;
+  }
+
+  /* For Booking */
+  .book-menu {
+    height   : 50px;
+    max-width: 1100px;
+  }
+
+  /* Footer */
+  .footer .footer-container {
+
+    grid-template-columns: 300px 500px 100px;
+
+  }
+}
+
+/* laptop */
+@media screen and (max-width:1000px) {
+  .navbar-items ul li a::after {
+    height: 1px;
+  }
+
+  .font-xl {
+    font-size  : 15px;
+    font-weight: bold;
+  }
+
+  .font-lg {
+    font-size: 10px;
+  }
+
+  .font-sm {
+    font-size: 7px;
+  }
+
+  .container {
+    margin: 1rem 2rem;
+  }
+
+  /* For Navigation */
+  .navbar .container .nav-logo img {
+    width: 50%;
+  }
+
+  /* For Home */
+  .home-menu {
+
+    max-width            : 1000px;
+    grid-template-columns: 250px 400px;
+    grid-gap             : 50px;
+    padding              : 30px 30px;
+  }
+
+  .home-img .contact {
+    height: 40%;
+  }
+
+  .home-img .contact div i {
+    transition: 0.5s;
+    margin    : 10px;
+    padding   : 2px;
+  }
+
+  .home-content .btn-gp .home-btn {
+    font-size    : 10px;
+    padding      : 10px;
+    border-radius: 10px;
+  }
+
+  /*to-top-btn */
+  .to-top-btn .to-top {
+    right  : 30px;
+    padding: 12px;
+  }
+
+  /* For News */
+  .news {
+    margin-top: 10px;
+    font-size : 10px;
+  }
+
+  .news-menu {
+    max-width            : 1000px;
+    grid-template-columns: auto 300px;
+    grid-gap             : 80px;
+  }
+
+  .news-menu-services {
+    max-width            : 1000px;
+    grid-template-columns: auto 300px 10px;
+    grid-gap             : 20px;
+
+  }
+
+  .img-2 {
+    position: relative;
+    z-index : 0;
+    top     : -50px;
+    left    : -60px;
+  }
+
+  .service-items p {
+    font-size: 7px;
+  }
+
+
+  /* For Foods */
+  .menu {
+    margin-bottom: 50px;
+
+  }
+
+  .menu-content {
+    grid-template-columns: 60px auto;
+    grid-gap             : 50px;
+  }
+
+  .options {
+    font-size  : 10px;
+    font-weight: bold;
+  }
+
+  .food-menu {
+    grid-template-columns: 100px 100px 100px;
+    grid-gap             : 60px;
+
+  }
+
+  .food-items {
+    height  : 180px;
+    overflow: hidden;
+    padding : 20px;
+  }
+
+  .option {
+    font-size: 8px;
+
+  }
+
+  .buy {
+    justify-content: space-between;
+    font-size      : 10px;
+  }
+
+  /*  */
+  .order .order-container {
+
+    max-width: 1000px;
+
+  }
+
+  .order .order-container .order-menu {
+
+    grid-template-columns: auto auto 200px;
+    margin               : 10px 0px;
+  }
+
+  /* Book */
+  .book-menu {
+    max-width: 1000px;
+  }
+
+  .book-container input {
+    width        : 200px;
+    font-size    : 10px;
+    border-radius: 5px;
+    padding      : 5px;
+  }
+
+  .book-container .input-gp .btn {
+    padding: 3px;
+
+  }
+
+  /* For Footer */
+  .footer {
+    font-size: 10px;
+  }
+
+  .footer .footer-container {
+    grid-template-columns: auto 400px 10px;
+    max-width            : 1000px;
+    grid-gap             : 20px;
+
+  }
+
+  .footer-item-gp {
+    line-height: 30px;
+  }
+
+  .footer-container .map iframe {
+    width : 400px;
+    height: 300px;
+  }
+
+}
+/* For Laptop And Mobile */
+@media screen and (max-width:713px) {
+
+
+  /* For Nav */
+  .navbar-items ul {
+    display: none;
+
+  }
+
+  .navbar .container .nav-logo img {
+    width        : 60%;
+    border-radius: 0px;
+  }
+
+  .nav_mobile {
+    display: block;
+  }
+
+  /* For Home */
+  .home-menu {
+    max-width            : 900px;
+    grid-template-columns: auto;
+
+  }
+
+  .home-img {
+    display        : flex;
+    justify-content: center;
+  }
+
+  .home-img .contact {
+    height: 100px;
+  }
+
+  .home-img .contact div i {
+
+    border-radius: 5px;
+  }
+
+  .btn-gp .btn:last-child {
+    display: none;
+  }
+
+  /* For News */
+  .news-menu {
+    max-width            : 900px;
+    grid-template-columns: auto;
+
+    margin-bottom: 10px;
+  }
+
+  .news-imgs {
+    order: -1;
+  }
+
+  .news-menu-services {
+    grid-template-columns: auto;
+    max-width            : 900px;
+  }
+
+  .news-menu-services .header {
+    display: none;
+  }
+
+  /* For Menu */
+  .menu {
+
+    max-width: 900px;
+  }
+
+  .menu-content {
+    grid-template-columns: auto;
+  }
+
+  .options .option {
+    font-size: 10px;
+  }
+
+  .food-menu {
+    grid-template-columns: auto;
+    grid-gap             : 0px;
+    display              : flex;
+    justify-content      : center;
+    align-items          : center;
+    flex-direction       : column;
+
+  }
+
+  .food-items {
+    margin : 10px;
+    width  : auto;
+    height : auto;
+    padding: auto;
+  }
+
+  /* For Order */
+  .order .order-container {
+    max-width: 900px;
+  }
+
+  .order .order-container .order-menu {
+    grid-template-columns: auto;
+  }
+
+  .order .order-container .order-menu .order-step:hover {
+    border-radius: 10px;
+    box-shadow   : 1px 1px 10px gainsboro;
+  }
+
+  .order .order-container .order-menu .img-steps {
+    order: -1;
+  }
+
+  /* For Book */
+  .book-menu {
+    max-width: 900px;
+    height   : auto;
+  }
+
+  .book-container {
+    grid-template-columns: auto;
+  }
+
+  .describe {
+    display: none;
+  }
+
+  /* For Footer */
+  .footer .footer-container {
+    grid-template-columns: auto;
+  }
+
+  .map,
+  .contact_us {
+    display: none;
+  }
+}
